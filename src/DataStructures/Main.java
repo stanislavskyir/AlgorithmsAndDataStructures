@@ -72,6 +72,17 @@ public class Main {
         mySingleLinkedList.add("fdsfdsfdsfdsfdsf");
         System.out.println(mySingleLinkedList.head);
 
+
+        MyLinkedList myLinkedList = new MyLinkedList();
+        myLinkedList.add(1);
+        myLinkedList.add(2);
+        myLinkedList.add(3);
+
+        System.out.println(myLinkedList);
+
+        myLinkedList.remove(0);
+        System.out.println(myLinkedList);
+
     }
 
     private static void measureTime(List<Integer> list){
